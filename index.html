@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+           <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+            
+        </nav>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+    </header>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me </h3>
+            <h1>Shreyash Bari</h1>
+            <h3>And I'm a <br><span class="typing"></span></h3>
+            <div class="container">
+                <h1> <span class="auto-type">Programmer</span></h1>
+        </div>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed(".auto-type",{
+                strings: ["Coder","Programmer","WebDeveloper","DataAnalyst","WebDesigner"],
+                typeSpeed: 150 ,
+                backspeed: 100 ,
+                loop: true
+    
+            })
+        </script>
+    
+        <p>I'm a web Designer with extensive experience for over 0 years.
+            <br>Expertise is to create and website design, Frontend developer, and many more....  </p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/shreyash.bari.140"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/bari_shreyash_20/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://i.ytimg.com/vi/JlKMp1OymQU/maxresdefault.jpg"><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://www.linkedin.com/in/shreyash-bari-33908027a/"><i class='bx bxl-linkedin-square'></i></a><br>
+            </div>
+            
+            
+            
+            <a href="Shreyash_Bari_Resume.pdf" id="downloadLink" class="btn">Download CV</a>
+
+
+
+
+        </div>
+        <div class="home-img">
+            <img src="shre2.jpg" alt="Home Image">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="shre3.jpg" alt="About Image">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Hi 
+                 My name is Shreyash Bari, and I am pursuing an MBA in IT with a focus on Project Management and Data Analytics.<br>
+                 I am also involved in coding challenges and certifications, particularly on platforms like HackerRank.</p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>I specialize in creating responsive and user-friendly websites using modern technologies such as HTML, CSS, JavaScript.
+                    I focus on building scalable and efficient web applications that offer seamless user experiences across devices.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-database"></i>
+                <h3>Database</h3>
+                <p>I offer expertise in designing, implementing, and optimizing database systems using SQL and MySQL.
+                     My services include data modeling, query optimization, and ensuring data integrity and security for robust and reliable database
+                      solutions..</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class="fa-brands fa-android"></i>
+                <h3>Android Development</h3>
+                <p>Android Development is another area of expertise, where I develop intuitive and feature-rich mobile applications using Java and Kotlin.
+                     I ensure that the apps are optimized for performance, have a smooth user interface, and are compatible across various
+                      Android devices and versions..</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-chart-line"></i>
+                <h3>Data Anayst</h3>
+                <p>As a Data Analyst, I bring proficiency in collecting, processing, and analyzing data to derive actionable insights.
+                     I utilize tools like Python, Power BI, and Excel to perform statistical analysis, create visualizations, and 
+                     support data-driven decision-making for businesses.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-chart-pie"></i>
+                <h3>Power BI</h3>
+                <p>In my role as a Power BI Developer, I create dynamic and interactive dashboards that provide real-time insights into business 
+                    performance. By integrating data from multiple sources, I deliver powerful visualizations that help organizations track
+                     key metrics and make informed decisions.
+
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Skills Section -->
+     <section class="portfolio" id="skills">
+        <h2 class="heading">Skills</h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="html-logo.png">
+                <div class="portfolio-layer">
+                    <h4>HTML</h4>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="css-logo.jpeg">
+                <div class="portfolio-layer">
+                    <h4>CSS</h4>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="javas-logo.png">
+                <div class="portfolio-layer">
+                    <h4>Javascript</h4>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="java-logo.png">
+                <div class="portfolio-layer">
+                    <h4>Java</h4>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="sql-logo.jpg">
+                <div class="portfolio-layer">
+                    <h4>SQL</h4>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="Project-logo.jpeg">
+                <div class="portfolio-layer">
+                    <h4>Project Management</h4>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="Data-Analyst.jpg">
+                <div class="portfolio-layer">
+                    <h4>Data Analysis</h4>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="Excel-logo.jpeg">
+                <div class="portfolio-layer">
+                    <h4>Advanced Excel</h4>
+                </div>
+            </div>
+
+
+        </div>
+     </section>
+    
+        <!-- Portfolio Section -->
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">Latest <span>Projects</span></h2>
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <a href="">
+                        <img src="1.png" >
+                        <div class="portfolio-layer">
+                            <h4>Web Design</h4>
+                            <p>Developed a web design project demonstrating skills in layout design, color theory, and responsive user interface.</p>
+                            <i class="fa-solid fa-up-right-from-square"></i>
+                        </div>
+                    </a>
+                </div>
+        
+                <div class="portfolio-box">
+                    <a href="https://shreyashbari.github.io/Amazon-Clone/">
+                        <img src="Amazon-Clone.jpg">
+                        <div class="portfolio-layer">
+                            <h4>Amazon-Clone</h4>
+                            <p>An Amazing E-commerce Website build with html and css [Amazon-Clone]</p>
+                            <i class="fa-solid fa-up-right-from-square"></i>
+                        </div>
+                    </a>
+                </div>
+        
+                <div class="portfolio-box">
+                    <a href="https://shreyashbari.github.io/Tic-tac-toe/">
+                        <img src="Tic-tac-toe.jpg">
+                        <div class="portfolio-layer">
+                            <h4>Tic-Tac-Toe</h4>
+                            <p>The two-player Tic-Tac-Toe, a web game created to develop my skills</p>
+                            <i class="fa-solid fa-up-right-from-square"></i>
+                        </div>
+                    </a>
+                </div>
+        
+                <div class="portfolio-box">
+                    <a href="https://shreyashbari.github.io/Calculator/">
+                        <img src="Calculator.jpg">
+                        <div class="portfolio-layer">
+                            <h4>Calculator</h4>
+                            <p>Developed a basic calculator application using HTML, CSS, and Javascript</p>
+                            <i class="fa-solid fa-up-right-from-square"></i>
+                        </div>
+                    </a>
+                </div>
+        
+                <div class="portfolio-box">
+                    <a href="">
+                        <img src="Data-Analyst.jpg">
+                        <div class="portfolio-layer">
+                            <h4>Data Analyst</h4>
+                            <p>Developed a comprehensive data analysis project using Python and Excel to extract insights and optimize decision-making processes.</p>
+                            <i class="fa-solid fa-up-right-from-square"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        ```
+        
+    
+
+    <!-- Contact Section -->
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+    <form action="https://api.web3forms.com/submit" method="POST">
+    
+        <div class="input-box">
+            <input type="hidden" name="access_key" value="319c3c59-cfe2-4b1d-aeeb-1f59cb0db8a9">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="E-mail Address" required>
+        </div>
+        <div class="input-box">
+            <input type="tel" name="mobile" placeholder="Mobile Number" required>
+            <input type="text" name="subject" placeholder="E-mail Subject" required>
+        </div>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+</section>
+
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>&copy; 2024 by @shreyashbari | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+   
+      
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var downloadLink = document.getElementById('downloadLink');
+    
+            downloadLink.addEventListener('click', function(e) {
+                e.preventDefault(); // Prevent the default action (opening the file)
+    
+                // Create an invisible download link
+                var link = document.createElement('a');
+                link.href = 'Shreyash_Bari_Resume.pdf'; // Make sure this file is in the same directory
+                link.download = 'Shreyash_Bari_Resume.pdf'; // The name of the file to download
+    
+                // Append link to body
+                document.body.appendChild(link);
+    
+                // Trigger the download by simulating a click
+                link.click();
+    
+                // Remove the link from the DOM after the click
+                document.body.removeChild(link);
+            });
+        });
+    </script>
+    
+</body>
+
+</html>
